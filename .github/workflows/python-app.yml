@@ -3,7 +3,7 @@ import chess.svg
 from telegram import InlineQueryResultArticle, InputTextMessageContent
 from telegram.ext import Updater, InlineQueryHandler
 
-def /start(update, context):
+def start(update, context):
     update.message.reply_text('Halo! Untuk memulai permainan, ketik "/main".')
 
 def play_chess(update, context):
